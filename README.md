@@ -13,7 +13,7 @@ Two engines, one interface:
 | Algebraic | [PySR](https://github.com/MilesCranmer/PySR) (genetic symbolic regression) | `y = f(x₁, x₂, …)` | any tabular CSV |
 | Differential | [PySINDy](https://github.com/dynamicslab/pysindy) (sparse identification) | `ẋ = f(x)` | time-series CSV |
 
-![Actual vs predicted](docs/actual_vs_predicted.png)
+![The Equation Discoverer app with the simple-pendulum dataset loaded](docs/demo.png)
 
 
 ---
@@ -52,6 +52,10 @@ Upload a CSV in the sidebar, pick your feature and target columns, hit **Run**.
   warning when the gap exceeds 0.05
 - The full **Pareto front** (complexity vs loss), not just the single winning equation
 - Actual-vs-predicted scatter, and for SINDy a simulated-vs-actual trajectory per state variable
+
+![Scatter plot of predicted against actual values, train and test points shown separately](docs/actual_vs_predicted.png)
+
+*Train and test predictions against the true values after a PySR run.*
 
 ### Benchmark datasets (`physical_datasets.py`)
 
