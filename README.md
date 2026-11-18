@@ -14,7 +14,7 @@ Two engines, one interface:
 | Differential | [PySINDy](https://github.com/dynamicslab/pysindy) (sparse identification) | `ẋ = f(x)` | time-series CSV |
 
 ![Actual vs predicted](docs/actual_vs_predicted.png)
-![Demo](docs/demo.png)
+
 
 ---
 
